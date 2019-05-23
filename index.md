@@ -5,7 +5,7 @@
 layout: default
 title: Introduction
 nav_order: 1
-description: "Bulksale is a documentation theme for Grupo Telepizza"
+description: "This is a documentation theme for Grupo Telepizza"
 permalink: /
 header: true
 ---
