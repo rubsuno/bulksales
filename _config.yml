@@ -16,7 +16,7 @@
 title: BulkSales Services
 description: A theme of Grupo Telepizza for documentation
 baseurl: "/bulksales"
-url: "https://rubsuno.github.io"
+url: "https://rubsuno.github.io/bulksales/"
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
