@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: BulkSales Services
-description: A theme of Grupo Telepizza for documentation
+description: A template of Grupo Telepizza for documentation
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rubsuno.github.io/bulksales/"
 
