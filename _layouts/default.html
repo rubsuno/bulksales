@@ -56,51 +56,7 @@
 						<li class="breadcrumb-item active" aria-current="page">Generate WSO2 Access Token</li>
 					</ol>
 				</nav>
-				<h1 class="bd-title" id="content">Generate WSO2 Access Token</h1>
-				<p>In order to invoke the BulkSales API published in WSO2, it is necessary to previously generate an access token.</p>
-				<p>The following cURL command shows how to generate an WSO2 access token using the Client Credentials grant type:</p>
-				<div class="bd-callout bd-callout-info">
-					<p>
-						<span class="d-inline-block mb-3">curl -k -d "grant_type=client_credentials" \</span>
-						<span class="d-inline-block ml-3">-H "Authorization: Basic Base64(consumer-key:consumer-secret)" \</span>
-					</p>
-				</div>
-				<p><a href="https://api-aws.telepizza.com/token" class="bd-link">https://api-aws.telepizza.com/token</a></p>
-				<table class="table table-bordered mt-5">
-					<tbody>
-						<tr>
-							<th scope="row" class="text-center">ID</th>
-							<td><span class="d-block text-uppercase">Get</span> <a href="https://api-aws.telepizza.com/token" class="bd-link">https://api-aws.telepizza.com/token</a></td>
-						</tr>
-						<tr>
-							<th scope="row" class="text-center">Description</th>
-							<td>Generate Access Token</td>
-						</tr>
-						<tr>
-							<th scope="row" class="text-center">Entry</th>
-							<td>
-								<span class="d-block"><strong>OK:</strong> Code 200</span>
-								<span class="d-block">String with the fyle type</span>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row" class="text-center">Exit</th>
-							<td>
-								<span class="d-block"><strong>Header</strong></span>
-								<span class="d-block">Authorization: Basic <span>
-										<</span>token <span>>
-									</span></span>
-								<span class="d-block">Content-Type: application/x-www-form-urlencoded</span>
-								<span class="d-block"><strong>Body</strong></span>
-								<span class="d-block">grant_type: client_credentials</span>
-							</td>
-						</tr>
-						<tr>
-							<th scope="row" class="text-center">Actions</th>
-							<td>This service generate an WSO2 access token.</td>
-						</tr>
-					</tbody>
-				</table>
+				{% include post.html %}
 			</main>
 		</div>
 	</div>
