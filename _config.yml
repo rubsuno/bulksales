@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: BulkSales Services
 description: A template of Grupo Telepizza for documentation
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: "https://rubsuno.github.io/bulksales/"
 
 permalink: pretty
